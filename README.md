@@ -1,6 +1,7 @@
-# Arduino-based game controller & packets manipulation
-This source code enables real time input manipulation and packet trasmission between an Arduino-based game controller and my custom game engine.
+# Controller di gioco basato su Arduino e comunicazione via seriale con motore di gioco custom
 
-The custom controller has a rotary encoder and a button. It just keeps on reading input from user and sending it as serial data packets. 
+Questo è il firmware del mio controller di gioco, consistente in un controller Arduino UNO collegato a un pulsante e un rotary encoder. 
 
-You can find both the Arduino firmware and the game engine function that receive and manipulate the incoming packets. 
+Il codice legge continuamente gli input dell'utente e li invia sotto forma di pacchetti seriali a un game engino custom che li elabora aggiornando poi l'input-state di gioco.
+
+È possibile visionare sia il codice relativo al firmware che la funzione specifica che riceve i pacchetti e ne estrae i contenuti. 
